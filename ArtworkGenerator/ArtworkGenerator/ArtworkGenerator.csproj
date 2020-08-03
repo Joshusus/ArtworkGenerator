@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
+    <PackageReference Include="System.Runtime.WindowsRuntime.UI.Xaml" Version="4.7.0" />
+    <PackageReference Include="Win2D.uwp" Version="1.25.0" />
+  </ItemGroup>
+
+</Project>
