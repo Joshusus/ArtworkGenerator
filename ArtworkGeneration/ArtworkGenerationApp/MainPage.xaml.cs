@@ -30,7 +30,6 @@ namespace ArtworkGenerationApp
             //Generate artwork
             MapSettings ms = new MapSettings();
             aiMapGen.CreatePaintPourImage(ms);
-            bool done = true;
 
             //Close application
             CoreApplication.Exit();
